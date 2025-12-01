@@ -1,0 +1,14 @@
+# 機密情報を含むファイル
+.zshrc.local
+*_history
+*.secret
+*.key
+id_rsa
+id_ed25519
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
