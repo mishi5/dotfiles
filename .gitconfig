@@ -1,0 +1,24 @@
+[user]
+	name = mishi5
+	email = nakaigawa@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
+	editor = code --wait
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # n/Nで差分間を移動
+    light = false      # ダークモード
+    side-by-side = true  # 横並び表示
+    line-numbers = true  # 行番号表示
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
