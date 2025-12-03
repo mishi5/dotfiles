@@ -12,3 +12,11 @@ Thumbs.db
 
 # その他
 *.log
+
+# Obsidian設定ファイル
+.obsidian/workspace.json       # ワークスペース状態（除外推奨）
+.obsidian/workspace-mobile.json # モバイル用（除外推奨）
+.obsidian/cache                # キャッシュ（除外）
+
+# その他
+.trash/                        # ゴミ箱（除外）
